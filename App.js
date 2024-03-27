@@ -13,6 +13,7 @@ class App extends Component() {
                 <Text stryle={{ color: 'blue', fontSize: 30, margin: 15 }}>Olá Mundo!</Text>
                 <Image source={{ uri: 'url' }} style={{ width: 300, height: 300, }} />
                 <Text>{curso}</Text>
+                <MinhaImagem largura={400} altura={400} nome='imagem 1' />
             </View>
         )
     }
